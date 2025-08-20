@@ -1,0 +1,36 @@
+ot = new _(tt, rt);
+
+  class mt extends w {
+    constructor(e, r) {
+      super(e, r);
+    }
+    executar() {
+      ct.aviso(`${this.nome} ativado!!!!`);
+      this.expandirTudo();
+    }
+    aoAlterarDOM() {
+      this.expandirTudo();
+    }
+    expandirTudo() {
+      try {
+        const elementos = document.querySelectorAll(
+          '.label-dias-corridosnot(.expandido)'
+        );
+        elementos.forEach((el) = el.classList.add(expandido));
+      } catch (e) {
+        ct.erro(e);
+      }
+    }
+  }
+  const ct = new A({ recurso mt.name, contexto contexto de pu00e1gina }),
+    nt = Auxiliador para Expandir Label Dias Corridos,
+    at = {
+      auxiliador mt,
+      checarHref L.HREFS.PAINEL_USUARIO,
+      emIframe !0,
+      esperar reativar,
+      alvo .label-dias-corridos,
+    },
+    ut = new _(nt, at);
+
+  const st = [Ve, Xe, Je, ot, ut, Le, et];
